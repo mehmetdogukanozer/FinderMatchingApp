@@ -1,0 +1,36 @@
+﻿# Genel ayarlar
+*.user
+*.userosscache
+*.suo
+*.cache
+*.log
+*.vspscc
+*.vssscc
+
+# Build sonuçları
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Paketler
+*.nupkg
+*.snupkg
+*.pdb
+packages/
+.vscode/
+
+# Yayın dosyaları
+*.publish/
+*.deploy/
+.publishSettings
+
+# Proje ayarları
+*.vs/
+*.dbmdl
+*.jfm
+*.ide
+
+# Çöp dosyalar
+*.DS_Store
+*.pyc
+*.class
