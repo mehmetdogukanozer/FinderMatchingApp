@@ -60,7 +60,7 @@ namespace NesneProje
 
                 mainpage.StartPosition = FormStartPosition.Manual;
                 mainpage.Location = this.Location;
-                
+
 
                 this.Hide();
 
@@ -72,7 +72,13 @@ namespace NesneProje
                 this.Show();
 
 
-               
+
+            }
+            else if (UserName.Text == "admin" && Password.Text == "36725262362")
+            {
+                AdminPage adminPage = new AdminPage();
+                adminPage.Show();
+                this.Hide();
             }
             else
             {

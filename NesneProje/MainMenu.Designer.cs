@@ -37,14 +37,20 @@
             this.mainuser = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.groupBoxAdvices = new System.Windows.Forms.GroupBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.groupBoxAdvices.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // top1
             // 
             this.top1.AutoSize = true;
             this.top1.BackColor = System.Drawing.Color.Brown;
+            this.top1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.top1.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.top1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.top1.Location = new System.Drawing.Point(130, 173);
@@ -57,7 +63,8 @@
             // top2
             // 
             this.top2.AutoSize = true;
-            this.top2.BackColor = System.Drawing.Color.White;
+            this.top2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.top2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.top2.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.top2.Location = new System.Drawing.Point(130, 286);
             this.top2.Name = "top2";
@@ -69,8 +76,9 @@
             // top3
             // 
             this.top3.AutoSize = true;
-            this.top3.BackColor = System.Drawing.Color.White;
+            this.top3.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.top3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.top3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.top3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.top3.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.top3.ForeColor = System.Drawing.Color.Black;
@@ -85,7 +93,8 @@
             // top4
             // 
             this.top4.AutoSize = true;
-            this.top4.BackColor = System.Drawing.Color.White;
+            this.top4.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.top4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.top4.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.top4.Location = new System.Drawing.Point(130, 498);
             this.top4.Name = "top4";
@@ -97,7 +106,8 @@
             // top5
             // 
             this.top5.AutoSize = true;
-            this.top5.BackColor = System.Drawing.Color.White;
+            this.top5.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.top5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.top5.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.top5.Location = new System.Drawing.Point(130, 606);
             this.top5.Name = "top5";
@@ -110,8 +120,9 @@
             // 
             this.mainuser.AutoSize = true;
             this.mainuser.BackColor = System.Drawing.Color.Transparent;
+            this.mainuser.Cursor = System.Windows.Forms.Cursors.Hand;
             this.mainuser.Font = new System.Drawing.Font("Yu Gothic", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.mainuser.Location = new System.Drawing.Point(412, 40);
+            this.mainuser.Location = new System.Drawing.Point(974, 61);
             this.mainuser.Name = "mainuser";
             this.mainuser.Size = new System.Drawing.Size(216, 52);
             this.mainuser.TabIndex = 2;
@@ -122,11 +133,12 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(140)))), ((int)(((byte)(145)))));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.mainuser);
             this.panel1.Location = new System.Drawing.Point(-6, -9);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(926, 122);
+            this.panel1.Size = new System.Drawing.Size(1457, 165);
             this.panel1.TabIndex = 3;
             // 
             // pictureBox1
@@ -134,10 +146,38 @@
             this.pictureBox1.Image = global::NesneProje.Properties.Resources.logo;
             this.pictureBox1.Location = new System.Drawing.Point(3, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(202, 118);
+            this.pictureBox1.Size = new System.Drawing.Size(230, 161);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
+            // 
+            // groupBoxAdvices
+            // 
+            this.groupBoxAdvices.Controls.Add(this.richTextBox1);
+            this.groupBoxAdvices.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.groupBoxAdvices.Location = new System.Drawing.Point(654, 198);
+            this.groupBoxAdvices.Name = "groupBoxAdvices";
+            this.groupBoxAdvices.Size = new System.Drawing.Size(718, 461);
+            this.groupBoxAdvices.TabIndex = 4;
+            this.groupBoxAdvices.TabStop = false;
+            this.groupBoxAdvices.Text = "Son Onaylanan İlişki Tavsiyeleri";
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.richTextBox1.Location = new System.Drawing.Point(34, 58);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(652, 364);
+            this.richTextBox1.TabIndex = 0;
+            this.richTextBox1.Text = "";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Location = new System.Drawing.Point(1222, 33);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(155, 111);
+            this.pictureBox2.TabIndex = 4;
+            this.pictureBox2.TabStop = false;
             // 
             // MainMenu
             // 
@@ -145,7 +185,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(140)))), ((int)(((byte)(160)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(660, 710);
+            this.ClientSize = new System.Drawing.Size(1436, 724);
+            this.Controls.Add(this.groupBoxAdvices);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.top5);
             this.Controls.Add(this.top4);
@@ -159,6 +200,8 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.groupBoxAdvices.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -173,5 +216,8 @@
         private System.Windows.Forms.Label mainuser;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.GroupBox groupBoxAdvices;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

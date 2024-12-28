@@ -45,6 +45,11 @@
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.label7 = new System.Windows.Forms.Label();
             this.burcbox = new System.Windows.Forms.ComboBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
             this.FemaleButton.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -156,7 +161,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(203, 456);
+            this.button1.Location = new System.Drawing.Point(203, 648);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(180, 37);
             this.button1.TabIndex = 4;
@@ -226,11 +231,57 @@
             this.burcbox.Size = new System.Drawing.Size(121, 28);
             this.burcbox.TabIndex = 8;
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(83, 547);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(135, 20);
+            this.label8.TabIndex = 9;
+            this.label8.Text = "Instagram Hesabı";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(168, 582);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(50, 20);
+            this.label9.TabIndex = 10;
+            this.label9.Text = "TelNo";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(224, 544);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(188, 26);
+            this.textBox1.TabIndex = 11;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(224, 582);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(188, 26);
+            this.textBox2.TabIndex = 12;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(226, 510);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(130, 20);
+            this.label10.TabIndex = 13;
+            this.label10.Text = "GİZLİ BİLGİLER";
+            // 
             // RegisterForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(635, 505);
+            this.ClientSize = new System.Drawing.Size(571, 710);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.burcbox);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.FemaleButton);
@@ -273,5 +324,10 @@
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.ComboBox burcbox;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label10;
     }
 }
